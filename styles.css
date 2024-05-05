@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: url("images/bg.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: repeat;
+  background-attachment: fixed;
+}
+
+.header {
+  text-align: center;
+  height: 350px;
+  padding: 12px;
+  background-image: url(images/portadas.jpeg);
+}
+
+.avatar {
+  width: 200px;
+  height: 200px;
+  margin-top: 30px;
+  background-color: #0c0c0c;
+  border-radius: 50%;
+  border: 2px solid rgba(38, 109, 38, 0.867);
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+.avatar:hover {
+  transform: scale(0.9); /* Ampliamos la imagen al 110% de su tamaño original */
+}
+
+.user-name {
+  font-size: 24px;
+  margin-top: 14px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.user-name:hover {
+  color: #e0cdcd;
+}
+
+.user-description {
+  font-size: 28px;
+  margin-top: 14px;
+  color: #fff;
+}
+
+.user-description:hover {
+  color: #e0cdcd;
+}
+
+.redes {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(79, 198, 57, 1) 35%,
+    rgb(51, 107, 68) 100%
+  );
+}
+
+.socials {
+  text-decoration: none;
+  text-align: center;
+  margin: 12px;
+  padding: 0;
+}
+
+.socials li {
+  display: inline-block;
+  margin: 16px;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  font-size: 20px;
+  color: #ffffff;
+}
+
+a:hover {
+  color: #796a6a;
+}
+
+.icon {
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  background-size: cover;
+}
+
+.email {
+  background-image: url(images/mail.png);
+}
+
+.facebook {
+  background-image: url(images/facebook.png);
+}
+
+.twitter {
+  background-image: url(images/twitter.png);
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-Biography {
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+p {
+  margin-top: 20px;
+  width: 80%;
+  font-size: 18px;
+  color: #ffffff;
+}
+
+span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  margin-top: 14px;
+  color: #fff;
+  margin-bottom: 20px;
+}
